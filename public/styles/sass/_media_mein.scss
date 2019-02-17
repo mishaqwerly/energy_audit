@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 900px) {
+  html, body {
+    font-size: 13px!important;
+  }
+
+	.header h1 {
+		font-size: 4rem;
+	}
+}
+
+
+@media only screen and (max-width: 720px) {
+  html, body {
+    font-size: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 574px) {
+ .left,.right {
+ 	justify-content: center;
+ }
+}

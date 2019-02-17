@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:300");
+body, a, ul, li, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.brb {
+  border-bottom: 2px solid #EF3B3A;
+}
+
+.b {
+  border: 2px solid #000;
+}
+
+.r {
+  border: 2px solid red;
+}
+
+.bs {
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bb {
+  border-bottom: 2px solid #fc5f45;
+}
+
+.container {
+  height: 100vh;
+  max-width: 100vw;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  font-size: 220px;
+  font-family: 'Hind', sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+  html, body {
+    font-size: 13px;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+}

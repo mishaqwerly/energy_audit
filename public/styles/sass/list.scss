@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+body, a, ul, li, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 57px;
+}
+
+.b {
+  border: 2px solid #000;
+}
+
+.r {
+  border: 2px solid red;
+}
+
+.bs {
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+.bb {
+  border-bottom: 2px solid #fc5f45;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.header {
+  padding: 100px 0 70px 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.h5 {
+  margin-bottom: 1rem;
+}
+
+.sec_2 {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+
+.image-bg {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  border: none;
+}
+.card-text {
+  margin-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.empty {
+  a {
+    color: #007bff;
+    text-decoration: none; 
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline; 
+    }
+  }
+}
+
+@import "media_list";

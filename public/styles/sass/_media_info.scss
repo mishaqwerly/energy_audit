@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1200px) {
+	.table td, .table th {
+		padding: .15rem;
+	}
+
+	.img {
+	    height: 400px;  
+	}
+
+	.elementor-title {
+    	font-size: 230px; 
+    	text-align: center;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+  html, body {
+    font-size: 12px;
+  }
+
+  h1 {
+		font-size: 4rem;
+	}
+
+  .display-1{
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+
+
+  h1 {
+		font-size: 3rem;
+	}
+
+  .table {
+	font-size: 7px;
+  }
+
+}
+
+
+@media only screen and (max-width: 430px) {
+  
+
+  .table {
+	font-size: 5px;
+  }
+}
+
+
+
+
